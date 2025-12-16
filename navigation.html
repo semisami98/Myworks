@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+<style>
+  /* Basic reset */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Navigation bar styles */
+  .navbar {
+    background-color: #333;
+    padding: 1rem 2rem;
+    font-family: Arial, sans-serif;
+  }
+
+  .nav-links {
+    list-style: none;
+display: flex;
+    gap: 2rem;
+  }
+
+  .nav-links a {
+    color: white;
+text-decoration: none;
+  padding:0.3rem 1rem;
+  border-radius:none;
+    transition: background-color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    background-color: red;
+  }
+  
+  .nav-links a.active {
+    background-color: #4CAF50;
+  }
+</style>
+</head>
+
+<body>
+<nav class="navbar">
+  <ul class="nav-links">
+    <li><a href="#home" class="active">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#portfolio">Portfolio</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+</body>
+
+</html>
